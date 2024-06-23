@@ -1,0 +1,46 @@
+.new-task-modal {
+  background-color: #313244;
+  color: #cdd6f4;
+  padding: 24px;
+  border-radius: 12px;
+  width: 40%;
+  min-width: 400px;
+}
+
+.new-task-modal-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 12px;
+  gap: 5px;
+  height: 40px;
+}
+
+.new-task-modal-buttons form {
+  width: 50%;
+  text-align: center;
+  font-weight: 500;
+  color: #313244;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.new-task-modal input {
+  background-color: #1e1e2e;
+  border-radius: 12px;
+  padding: 4px 12px;
+  width: 100%;
+  margin-bottom: 8px;
+}
+
+.new-task-modal h2 {
+  font-size: 24px;
+}
+
+.new-task-modal-buttons form:nth-child(1) {
+  background-color: #f38ba8;
+}
+.new-task-modal-buttons form:nth-child(2) {
+  background-color: #a6e3a1;
+}

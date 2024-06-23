@@ -1,0 +1,12 @@
+@tailwind base;
+
+.app {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+}
+
+html {
+  height: 100%;
+  background-color: #1e1e2e;
+}

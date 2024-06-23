@@ -1,0 +1,14 @@
+.task {
+  display: flex;
+  gap: 12px;
+  /* justify-content: center; */
+  align-items: center;
+  font-size: 1.2rem;
+}
+
+.task-delete {
+  font-size: 2rem;
+}
+.task-delete:hover {
+  color: #a6e3a1;
+}

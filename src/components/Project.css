@@ -1,0 +1,12 @@
+.project-title {
+  transition: all 0.25s;
+  margin: 4px 0;
+}
+
+.project:not(.active):hover .project-title {
+  color: #cba6f7;
+}
+
+.project:hover {
+  cursor: pointer;
+}
